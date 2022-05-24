@@ -35,7 +35,7 @@ public class Planina {
     }
 
     public void setVisinaPlanine(int visinaPlanine) {
-        if (visinaPlanine < 0) {
+        if (visinaPlanine > 0) {
             this.visinaPlanine = visinaPlanine;
         } else {
             System.err.println("Nevalidna vrednost!");
